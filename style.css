@@ -1,0 +1,213 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    min-height: 90vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("img/hero-sertec.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+
+.btn-cta {
+    background: linear-gradient(135deg, #25d366, #128c7e);
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 50px;
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(37, 211, 102, .4);
+    transition: .3s;
+    text-decoration: none;
+}
+
+.btn-cta:hover {
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 0 18px 35px rgba(37, 211, 102, .6);
+    color: #fff;
+}
+
+.service-card {
+    border: none;
+    transition: .3s;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+}
+
+.sobre-expandido {
+    min-height: 80vh;
+    /* aumenta a section */
+    display: flex;
+    align-items: center;
+}
+
+.mascote-sertec {
+    max-width: 300px;
+    animation: flutuar 5.5s ease-in-out infinite;
+}
+
+/* animação leve */
+@keyframes flutuar {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    .sobre-expandido {
+        min-height: auto;
+        padding: 60px 0;
+    }
+
+    .mascote-sertec {
+        max-width: 260px;
+    }
+}
+
+.quiz-section {
+    background: linear-gradient(135deg, #0d6efd, #002f6c);
+    color: #fff;
+}
+
+.quiz-card {
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+}
+
+.quiz-sub {
+    opacity: .9;
+}
+
+.quiz-progress {
+    width: 100%;
+    height: 8px;
+    background: #eee;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.quiz-progress div {
+    height: 100%;
+    width: 20%;
+    background: linear-gradient(90deg, #28a745, #20c997);
+    transition: width .3s;
+}
+
+.quiz-question {
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.quiz-options button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 14px;
+    border: none;
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    transition: .2s;
+}
+
+.quiz-options button:hover {
+    transform: scale(1.03);
+}
+
+/* cores dos botões */
+.btn-green {
+    background: #28a745;
+    color: #fff;
+}
+
+.btn-yellow {
+    background: #ffc107;
+    color: #000;
+}
+
+.btn-red {
+    background: #dc3545;
+    color: #fff;
+}
+
+.parceiros-section {
+    background: #f8f9fa;
+}
+
+.logo-parceiro {
+    max-width: 160px;
+    max-height: 80px;
+    filter: grayscale(100%);
+    opacity: .7;
+    transition: .3s ease;
+}
+
+
+.parceiros-section {
+  background: #f8f9fa;
+}
+
+.parceiro-card {
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  overflow: hidden;
+  transition: .3s;
+}
+
+.parceiro-card img {
+  max-width: 200px;
+  max-height: 100px;
+  transition: .3s;
+  border-radius: 20px;
+}
+
+
+
+.parceiro-info {
+  position: absolute;
+  inset: 0;
+  background: rgba(7, 68, 160, 0.95); /* azul sertec */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  transition: .3s;
+}
+
+.parceiro-card:hover .parceiro-info {
+  opacity: 1;
+}
+
+.parceiro-info h6 {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.parceiro-info p {
+  font-size: .9rem;
+  margin: 0;
+}

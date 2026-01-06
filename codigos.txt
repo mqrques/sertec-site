@@ -1,0 +1,182 @@
+ <section id="servicos-detalhados" class="py-5" style="background:#0a2a66;">
+    <div class="container">
+
+      <div class="text-center text-white mb-5">
+        <h2 class="fw-bold">Soluções completas para eliminar qualquer praga</h2>
+        <p class="opacity-75">Atendimento profissional, seguro e certificado</p>
+      </div>
+
+      <!-- ================= DEDETIZAÇÃO ================= -->
+      <div class="card mb-4 shadow">
+        <div class="row g-0 align-items-center">
+
+          <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1581579185169-1c8b8f0b2b97" class="img-fluid rounded-start"
+              alt="Dedetização">
+          </div>
+
+          <div class="col-md-8 p-4">
+            <h4 class="fw-bold">Dedetização</h4>
+
+            <ul class="nav nav-pills mb-3" role="tablist">
+              <li class="nav-item">
+                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#ded-def"
+                  type="button">Definição</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#ded-foco" type="button">Foco</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#ded-cur"
+                  type="button">Curiosidades</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#ded-cont" type="button">Controle</button>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="ded-def">
+                Eliminação profissional de pragas urbanas com segurança e eficiência.
+              </div>
+              <div class="tab-pane fade" id="ded-foco">
+                Baratas, formigas, mosquitos, aranhas e insetos em geral.
+              </div>
+              <div class="tab-pane fade" id="ded-cur">
+                Pequenos focos podem se espalhar rapidamente se não tratados.
+              </div>
+              <div class="tab-pane fade" id="ded-cont">
+                Produtos regulamentados, aplicação técnica e acompanhamento.
+              </div>
+            </div>
+
+            <a href="https://wa.me/5514997870187" target="_blank" class="btn btn-success mt-3">
+              Solicitar orçamento
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================= ROÇADA ================= -->
+      <div class="card mb-4 shadow">
+        <div class="row g-0 align-items-center">
+
+          <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449" class="img-fluid rounded-start"
+              alt="Roçada">
+          </div>
+
+          <div class="col-md-8 p-4">
+            <h4 class="fw-bold">Roçada</h4>
+
+            <ul class="nav nav-pills mb-3" role="tablist">
+              <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab"
+                  data-bs-target="#roc-def">Definição</button></li>
+              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                  data-bs-target="#roc-foco">Foco</button></li>
+              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                  data-bs-target="#roc-cur">Curiosidades</button></li>
+              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                  data-bs-target="#roc-cont">Controle</button></li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="roc-def">Limpeza e corte de vegetação.</div>
+              <div class="tab-pane fade" id="roc-foco">Terrenos, áreas industriais e condomínios.</div>
+              <div class="tab-pane fade" id="roc-cur">Reduz riscos de pragas e animais peçonhentos.</div>
+              <div class="tab-pane fade" id="roc-cont">Equipamentos adequados e equipe treinada.</div>
+            </div>
+
+            <a href="https://wa.me/5514997870187" target="_blank" class="btn btn-success mt-3">
+              Solicitar orçamento
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================= DESCUPINIZAÇÃO ================= -->
+      <div class="card shadow">
+        <div class="row g-0 align-items-center">
+
+          <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1598514983318-2f64f8f4796c" class="img-fluid rounded-start"
+              alt="Descupinização">
+          </div>
+
+          <div class="col-md-8 p-4">
+            <h4 class="fw-bold">Descupinização</h4>
+
+            <ul class="nav nav-pills mb-3" role="tablist">
+              <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab"
+                  data-bs-target="#des-def">Definição</button></li>
+              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                  data-bs-target="#des-foco">Foco</button></li>
+              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                  data-bs-target="#des-cur">Curiosidades</button></li>
+              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                  data-bs-target="#des-cont">Controle</button></li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="des-def">Tratamento especializado contra cupins.</div>
+              <div class="tab-pane fade" id="des-foco">Madeira, estruturas e solo.</div>
+              <div class="tab-pane fade" id="des-cur">Cupins causam danos silenciosos.</div>
+              <div class="tab-pane fade" id="des-cont">Métodos químicos e barreiras preventivas.</div>
+            </div>
+
+            <a href="https://wa.me/5514997870187" target="_blank" class="btn btn-success mt-3">
+              Solicitar orçamento
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <!-- ================= PINTURA ================= -->
+      <div class="card mb-4 shadow">
+        <div class="row g-0 align-items-center">
+
+          <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952" class="img-fluid rounded-start"
+              alt="Pintura Interna e Externa">
+          </div>
+
+          <div class="col-md-8 p-4">
+            <h4 class="fw-bold">Pintura Interna e Externa</h4>
+
+            <ul class="nav nav-pills mb-3" role="tablist">
+              <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab"
+                  data-bs-target="#pin-def">Definição</button></li>
+              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                  data-bs-target="#pin-foco">Foco</button></li>
+              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                  data-bs-target="#pin-cur">Curiosidades</button></li>
+              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                  data-bs-target="#pin-cont">Controle</button></li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="pin-def">
+                Serviço de pintura profissional com acabamento técnico e durabilidade.
+              </div>
+              <div class="tab-pane fade" id="pin-foco">
+                Ambientes internos e externos residenciais, comerciais e industriais.
+              </div>
+              <div class="tab-pane fade" id="pin-cur">
+                A pintura protege a estrutura e valoriza o imóvel.
+              </div>
+              <div class="tab-pane fade" id="pin-cont">
+                Materiais de qualidade, preparação correta e mão de obra especializada.
+              </div>
+            </div>
+
+            <a href="https://wa.me/5514997870187" target="_blank" class="btn btn-success mt-3">
+              Solicitar orçamento
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
