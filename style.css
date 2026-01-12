@@ -6,7 +6,7 @@ body {
     min-height: 90vh;
     background:
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("img/hero-sertec.jpg") center/cover no-repeat;
+        url("img/HEROGG.png") center no-repeat;
     display: flex;
     align-items: center;
 }
@@ -40,10 +40,17 @@ body {
 }
 
 .sobre-expandido {
-    min-height: 80vh;
-    /* aumenta a section */
+    min-height: 70vh;
     display: flex;
     align-items: center;
+}
+
+.sobre-expandido p {
+    font-size: 22px;
+}
+
+.h2-sobre h2{
+    font-size: 32px;
 }
 
 .mascote-sertec {
@@ -76,6 +83,7 @@ body {
     .mascote-sertec {
         max-width: 260px;
     }
+
 }
 
 .quiz-section {
@@ -210,4 +218,127 @@ body {
 .parceiro-info p {
   font-size: .9rem;
   margin: 0;
+}
+.quiz-counter{
+  font-weight: 700;
+  opacity: .75;
+  font-size: .95rem;
+}
+
+
+
+/* Accordion "Veja mais serviços" dentro da seção azul */
+#servicos .accordion-item {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+#servicos .accordion-button {
+  background: rgba(255, 255, 255, .08);
+  color: #fff;
+}
+
+#servicos .accordion-button:not(.collapsed) {
+  background: rgba(255, 255, 255, .14);
+  color:rgba(7, 68, 160, 0.95);
+  box-shadow: none;
+  text-align: center;
+}
+
+#servicos .accordion-body {
+  background: transparent;
+}
+
+#servicos .accordion-button span {
+  color: rgba(7, 68, 160, 0.95);
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+
+/* Centralizar botão "Veja mais serviços" */
+#servicos .accordion-button {
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+/* Centraliza também no mobile */
+#servicos .accordion-button::after {
+  position: static;
+  margin-left: 10px;
+}
+
+/* Destaque quando o accordion está fechado */
+#servicos .accordion-button.collapsed {
+  box-shadow: 0 0 0 rgba(37, 211, 102, 0);
+  transition: all .3s ease;
+  animation: pulseGlow 2.5s infinite;
+}
+
+@keyframes pulseGlow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(37, 211, 102, 0);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(37, 211, 102, .35);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+/* Quando abre, remove a animação */
+#servicos .accordion-button:not(.collapsed) {
+  animation: none;
+}
+
+.certificados {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-top: 70px;
+}
+
+.certificados img {
+  max-height: 150px; /* tamanho pequeno */
+  opacity: 0.85;
+  transition: 0.3s;
+}
+
+.certificados img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .certificados {
+    justify-content: center;
+  }
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  font-size: 1.8rem;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: rgba(7, 68, 160, 0.95);
+}
+
+.social-handle {
+  font-size: 0.95rem;
+  opacity: 0.8;
 }

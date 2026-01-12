@@ -10,6 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img-logos/brasãovetor.png" type="image/x-icon">
 </head>
 
 <body>
@@ -39,9 +40,9 @@
   <section id="inicio" class="hero text-white">
     <div class="container">
       <h1 class="fw-bold">Proteção, controle e segurança para seu ambiente</h1>
-      <p class="lead mt-3">Soluções profissionais em dedetização, limpeza e manutenção.</p>
+      <p class="lead mt-3">Controle de pragas e serviços</p>
       <a href="https://wa.me/5514997870187?text=Olá,%20quero%20um%20orçamento" target="_blank"
-        class="btn btn-cta btn-lg mt-4">
+        class="btn btn-cta btn-lg mt-4"><i class="bi bi-whatsapp"></i>
         Solicitar orçamento
       </a>
     </div>
@@ -54,7 +55,7 @@
 
         <!-- TEXTO -->
         <div class="col-lg-7">
-          <h2 class="fw-bold mb-3">Sobre a SERTEC</h2>
+          <h2 class="fw-bold mb-3 h2-sobre">Sobre a SERTEC</h2>
           <p>
             A <strong>SERTEC</strong> atua com foco em segurança, confiança e qualidade,
             atendendo áreas residenciais, comerciais, industriais, condominiais e rurais.
@@ -63,6 +64,12 @@
             Trabalhamos com critérios rigorosos, produtos certificados e total conformidade
             com as normas ambientais e de segurança do trabalho.
           </p>
+          <!-- CERTIFICADOS -->
+          <div class="certificados mt">
+            <img src="img/Selo 24h.png" alt="Certificado 1">
+            <img src="img/Selo SP.png" alt="Certificado 2">
+          </div>
+
         </div>
 
         <!-- MASCOTE -->
@@ -79,7 +86,7 @@
     <div class="container">
 
       <div class="text-center mb-4">
-        <h2 class="fw-bold">🚨 Tem risco de pragas aí?</h2>
+        <h2 class="fw-bold">Descubra o grau de incidência de pragas</h2>
         <p class="quiz-sub">Responda rapidinho e descubra</p>
       </div>
 
@@ -94,6 +101,8 @@
             </div>
 
             <!-- PERGUNTA -->
+            <div id="quizCounter" class="quiz-counter mb-2"></div>
+
             <h4 id="quizQuestion" class="quiz-question"></h4>
 
             <!-- RESPOSTAS -->
@@ -109,6 +118,7 @@
 
 
   <!-- SERVIÇOS -->
+  <!-- SERVIÇOS -->
   <section id="servicos" class="py-5" style="background:#0a2a66;">
     <div class="container">
       <div class="text-center text-white mb-5">
@@ -116,7 +126,7 @@
         <p>Atendimento completo para seu ambiente</p>
       </div>
 
-      <!-- CARD TEMPLATE -->
+      <!-- ================= DEDetização ================= -->
       <div class="service-card card mb-4">
         <div class="row g-0">
           <div class="col-md-4">
@@ -137,8 +147,12 @@
             </ul>
 
             <div class="tab-content">
-              <div class="tab-pane fade show active" id="ded1">Serviço profissional para eliminar e prevenir pragas
-                urbanas como baratas, formigas, ratos e insetos em geral.</div>
+              <div class="tab-pane fade show active" id="ded1">
+                Serviço profissional de controle de pragas urbanas, incluindo
+                <strong>desinsetização, desratização e descupinização</strong>,
+                com foco na eliminação e prevenção de infestações em ambientes
+                residenciais, comerciais e industriais.
+              </div>
               <div class="tab-pane fade" id="ded2">Baratas, formigas, ratos, camundongos, escorpiões, aranhas, pulgas,
                 carrapatos, mosquitos e outros insetos rasteiros e voadores.</div>
               <div class="tab-pane fade" id="ded3">Muitas pragas se escondem em locais úmidos, ralos e frestas, e podem
@@ -148,95 +162,18 @@
             </div>
 
             <a href="https://wa.me/5514997870187?text=Quero%20orçamento%20de%20dedetização" target="_blank"
-              class="btn btn-cta mt-4">
-              <i class="bi bi-whatsapp"></i> Solicitar orçamento
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- ================= ROÇADA ================= -->
-      <div class="service-card card mb-4">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="img/roçada.jpg" class="img-fluid h-100">
-          </div>
-          <div class="col-md-8 p-4">
-            <h4 class="fw-bold">Roçada</h4>
-
-            <ul class="nav nav-pills mb-3">
-              <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab"
-                  data-bs-target="#roc1">Definição</button></li>
-              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#roc2">Foco</button>
-              </li>
-              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
-                  data-bs-target="#roc3">Curiosidades</button></li>
-              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
-                  data-bs-target="#roc4">Controle</button></li>
-            </ul>
-
-            <div class="tab-content">
-              <div class="tab-pane fade show active" id="roc1">Corte e limpeza de vegetação alta, mato e áreas verdes
-                para manter o local limpo e seguro.</div>
-              <div class="tab-pane fade" id="roc2">Evitar proliferação de pragas, animais peçonhentos e melhorar a
-                aparência do ambiente.</div>
-              <div class="tab-pane fade" id="roc3">Mato alto é um dos principais esconderijos de escorpiões e cobras.
-              </div>
-              <div class="tab-pane fade" id="roc4">Execução com equipamentos adequados e descarte correto dos resíduos
-                vegetais.</div>
-            </div>
-
-            <a href="https://wa.me/5514997870187?text=Quero%20orçamento%20de%20roçada" target="_blank"
-              class="btn btn-cta mt-4">
+              class="btn btn-cta mt-4 btn btn-success d-block d-md-inline-block text-center mx-auto mx-md-0">
               <i class="bi bi-whatsapp"></i> Solicitar orçamento
             </a>
           </div>
         </div>
       </div>
 
-      <!-- ================= PINTURA ================= -->
+      <!-- ================= MIP  ================= -->
       <div class="service-card card mb-4">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="img/pintura.jpg" class="img-fluid h-100">
-          </div>
-          <div class="col-md-8 p-4">
-            <h4 class="fw-bold">Pintura Interna e Externa</h4>
-
-            <ul class="nav nav-pills mb-3">
-              <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab"
-                  data-bs-target="#pin1">Definição</button></li>
-              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#pin2">Foco</button>
-              </li>
-              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
-                  data-bs-target="#pin3">Curiosidades</button></li>
-              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
-                  data-bs-target="#pin4">Controle</button></li>
-            </ul>
-
-            <div class="tab-content">
-              <div class="tab-pane fade show active" id="pin1">Pintura profissional para proteção e renovação de
-                ambientes internos e externos.</div>
-              <div class="tab-pane fade" id="pin2">Proteger superfícies, valorizar o imóvel e melhorar o conforto
-                visual.</div>
-              <div class="tab-pane fade" id="pin3">Uma boa pintura ajuda a evitar infiltrações e desgaste das paredes.
-              </div>
-              <div class="tab-pane fade" id="pin4">Uso de materiais de qualidade e aplicação técnica para maior
-                durabilidade.</div>
-            </div>
-
-            <a href="https://wa.me/5514997870187?text=Quero%20orçamento%20de%20pintura" target="_blank"
-              class="btn btn-cta mt-4">
-              <i class="bi bi-whatsapp"></i> Solicitar orçamento
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- ================= MIP ================= -->
-      <div class="service-card card mb-4">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="img/mip.jpg" class="img-fluid h-100">
+            <img src="img/mip.jpeg" class="img-fluid h-100">
           </div>
           <div class="col-md-8 p-4">
             <h4 class="fw-bold">MIP – Manejo Integrado de Pragas</h4>
@@ -253,8 +190,11 @@
             </ul>
 
             <div class="tab-content">
-              <div class="tab-pane fade show active" id="mip1">Sistema que combina prevenção, monitoramento e controle
-                de pragas de forma inteligente.</div>
+              <div class="tab-pane fade show active" id="mip1">
+                O <strong>MIP – Manejo Integrado de Pragas</strong> é um sistema de
+                controle com foco no manejo de <strong>pombos e morcegos</strong>.
+              </div>
+
               <div class="tab-pane fade" id="mip2">Reduzir riscos de infestação contínua com menor uso de produtos
                 químicos.</div>
               <div class="tab-pane fade" id="mip3">O MIP é muito utilizado em indústrias e empresas que exigem alto
@@ -264,18 +204,18 @@
             </div>
 
             <a href="https://wa.me/5514997870187?text=Quero%20orçamento%20de%20MIP" target="_blank"
-              class="btn btn-cta mt-4">
+              class="btn btn-cta mt-4 btn btn-success d-block d-md-inline-block text-center mx-auto mx-md-0">
               <i class="bi bi-whatsapp"></i> Solicitar orçamento
             </a>
           </div>
         </div>
       </div>
 
-      <!-- ================= LIMPEZA CAIXA D’ÁGUA ================= -->
+      <!-- ================= LIMPEZA  ================= -->
       <div class="service-card card mb-4">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="img/caixadag.jpg" class="img-fluid h-100">
+            <img src="img/b4.png" class="img-fluid h-100">
           </div>
           <div class="col-md-8 p-4">
             <h4 class="fw-bold">Higienização de Caixa D’Água</h4>
@@ -292,8 +232,10 @@
             </ul>
 
             <div class="tab-content">
-              <div class="tab-pane fade show active" id="cx1">Higienização completa de reservatórios para garantir água
-                limpa e segura.</div>
+              <div class="tab-pane fade show active" id="cx1">Higienização completa de reservatórios para garantir
+                <strong>água
+                  limpa e segura.</strong>
+              </div>
               <div class="tab-pane fade" id="cx2">Eliminar sujeiras, bactérias e resíduos acumulados no reservatório.
               </div>
               <div class="tab-pane fade" id="cx3">Caixas d’água devem ser limpas a cada 6 meses, segundo recomendações
@@ -303,89 +245,199 @@
             </div>
 
             <a href="https://wa.me/5514997870187?text=Quero%20orçamento%20de%20limpeza%20de%20caixa%20d’água"
-              target="_blank" class="btn btn-cta mt-4">
+              target="_blank"
+              class="btn btn-cta mt-4 btn btn-success d-block d-md-inline-block text-center mx-auto mx-md-0">
               <i class="bi bi-whatsapp"></i> Solicitar orçamento
             </a>
           </div>
         </div>
       </div>
 
-      <!-- ================= PODA ================= -->
-      <div class="service-card card mb-4">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="img/poda.jpg" class="img-fluid h-100">
-          </div>
-          <div class="col-md-8 p-4">
-            <h4 class="fw-bold">Poda de Árvores</h4>
+      <!-- VEJA MAIS  -->
+      <div class="accordion mt-4" id="moreServices">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="moreServicesHeading">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#moreServicesCollapse" aria-expanded="false" aria-controls="moreServicesCollapse">
+              <span id="moreServicesText">Veja mais serviços</span>
+            </button>
+          </h2>
 
-            <ul class="nav nav-pills mb-3">
-              <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab"
-                  data-bs-target="#pod1">Definição</button></li>
-              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#pod2">Foco</button>
-              </li>
-              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
-                  data-bs-target="#pod3">Curiosidades</button></li>
-              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
-                  data-bs-target="#pod4">Controle</button></li>
-            </ul>
+          <div id="moreServicesCollapse" class="accordion-collapse collapse" aria-labelledby="moreServicesHeading"
+            data-bs-parent="#moreServices">
+            <div class="accordion-body p-0">
 
-            <div class="tab-content">
-              <div class="tab-pane fade show active" id="pod1">Corte e manutenção de galhos para segurança e saúde das
-                árvores.</div>
-              <div class="tab-pane fade" id="pod2">Evitar riscos de queda, melhorar o crescimento e proteger estruturas
-                próximas.</div>
-              <div class="tab-pane fade" id="pod3">A poda correta ajuda a prevenir pragas e doenças nas árvores.</div>
-              <div class="tab-pane fade" id="pod4">Execução técnica respeitando normas ambientais e segurança no
-                trabalho.</div>
-            </div>
+              <!-- ================= ROÇADA (ESCONDIDO) ================= -->
+              <div class="service-card card mb-4">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/roçada.png" class="img-fluid h-100">
+                  </div>
+                  <div class="col-md-8 p-4">
+                    <h4 class="fw-bold">Roçada</h4>
 
-            <a href="https://wa.me/5514997870187?text=Quero%20orçamento%20de%20poda%20de%20árvore" target="_blank"
-              class="btn btn-cta mt-4">
-              <i class="bi bi-whatsapp"></i> Solicitar orçamento
-            </a>
-          </div>
-        </div>
-      </div>
+                    <ul class="nav nav-pills mb-3">
+                      <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab"
+                          data-bs-target="#roc1">Definição</button></li>
+                      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                          data-bs-target="#roc2">Foco</button>
+                      </li>
+                      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                          data-bs-target="#roc3">Curiosidades</button></li>
+                      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                          data-bs-target="#roc4">Controle</button></li>
+                    </ul>
 
-      <!-- ================= PÓS-OBRA ================= -->
-      <div class="service-card card mb-4">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="img/pos.jpg" class="img-fluid h-100">
-          </div>
-          <div class="col-md-8 p-4">
-            <h4 class="fw-bold">Limpeza Pós-Obra</h4>
+                    <div class="tab-content">
+                      <div class="tab-pane fade show active" id="roc1">Corte e limpeza de vegetação alta, mato e áreas
+                        verdes
+                        para manter o local limpo e seguro.</div>
+                      <div class="tab-pane fade" id="roc2">Evitar proliferação de pragas, animais peçonhentos e melhorar
+                        a
+                        aparência do ambiente.</div>
+                      <div class="tab-pane fade" id="roc3">Mato alto é um dos principais esconderijos de escorpiões e
+                        cobras.
+                      </div>
+                      <div class="tab-pane fade" id="roc4">Execução com equipamentos adequados e descarte correto dos
+                        resíduos
+                        vegetais.</div>
+                    </div>
 
-            <ul class="nav nav-pills mb-3">
-              <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab"
-                  data-bs-target="#pos1">Definição</button></li>
-              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#pos2">Foco</button>
-              </li>
-              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
-                  data-bs-target="#pos3">Curiosidades</button></li>
-              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
-                  data-bs-target="#pos4">Controle</button></li>
-            </ul>
-
-            <div class="tab-content">
-              <div class="tab-pane fade show active" id="pos1">Limpeza pesada após obras ou reformas, removendo resíduos
-                e sujeiras.</div>
-              <div class="tab-pane fade" id="pos2">Deixar o ambiente pronto para uso, limpo e organizado.</div>
-              <div class="tab-pane fade" id="pos3">Resíduos de obra podem causar danos e riscos à saúde se não forem
-                removidos corretamente.</div>
-              <div class="tab-pane fade" id="pos4">Uso de produtos adequados e equipe treinada para limpeza completa.
+                    <a href="https://wa.me/5514997870187?text=Quero%20orçamento%20de%20roçada" target="_blank"
+                      class="btn btn-cta mt-4 btn btn-success d-block d-md-inline-block text-center mx-auto mx-md-0">
+                      <i class="bi bi-whatsapp"></i> Solicitar orçamento
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
 
-            <a href="https://wa.me/5514997870187?text=Quero%20orçamento%20de%20limpeza%20pós-obra" target="_blank"
-              class="btn btn-cta mt-4">
-              <i class="bi bi-whatsapp"></i> Solicitar orçamento
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+              <!-- ================= PINTURA (ESCONDIDO) ================= -->
+              <div class="service-card card mb-4">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/pintura.jpg" class="img-fluid h-100">
+                  </div>
+                  <div class="col-md-8 p-4">
+                    <h4 class="fw-bold">Pintura Interna e Externa</h4>
+
+                    <ul class="nav nav-pills mb-3">
+                      <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab"
+                          data-bs-target="#pin1">Definição</button></li>
+                      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                          data-bs-target="#pin2">Foco</button>
+                      </li>
+                      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                          data-bs-target="#pin3">Curiosidades</button></li>
+                      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                          data-bs-target="#pin4">Controle</button></li>
+                    </ul>
+
+                    <div class="tab-content">
+                      <div class="tab-pane fade show active" id="pin1">Pintura profissional para proteção e renovação de
+                        ambientes internos e externos.</div>
+                      <div class="tab-pane fade" id="pin2">Proteger superfícies, valorizar o imóvel e melhorar o
+                        conforto
+                        visual.</div>
+                      <div class="tab-pane fade" id="pin3">Uma boa pintura ajuda a evitar infiltrações e desgaste das
+                        paredes.
+                      </div>
+                      <div class="tab-pane fade" id="pin4">Uso de materiais de qualidade e aplicação técnica para maior
+                        durabilidade.</div>
+                    </div>
+
+                    <a href="https://wa.me/5514997870187?text=Quero%20orçamento%20de%20pintura" target="_blank"
+                      class="btn btn-cta mt-4 btn btn-success d-block d-md-inline-block text-center mx-auto mx-md-0">
+                      <i class="bi bi-whatsapp"></i> Solicitar orçamento
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ================= PODA (ESCONDIDO) ================= -->
+              <div class="service-card card mb-4">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/poda.png" class="img-fluid h-100">
+                  </div>
+                  <div class="col-md-8 p-4">
+                    <h4 class="fw-bold">Poda de Árvores</h4>
+
+                    <ul class="nav nav-pills mb-3">
+                      <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab"
+                          data-bs-target="#pod1">Definição</button></li>
+                      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                          data-bs-target="#pod2">Foco</button>
+                      </li>
+                      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                          data-bs-target="#pod3">Curiosidades</button></li>
+                      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                          data-bs-target="#pod4">Controle</button></li>
+                    </ul>
+
+                    <div class="tab-content">
+                      <div class="tab-pane fade show active" id="pod1">Corte e manutenção de galhos para segurança e
+                        saúde das
+                        árvores.</div>
+                      <div class="tab-pane fade" id="pod2">Evitar riscos de queda, melhorar o crescimento e proteger
+                        estruturas
+                        próximas.</div>
+                      <div class="tab-pane fade" id="pod3">A poda correta ajuda a prevenir pragas e doenças nas árvores.
+                      </div>
+                      <div class="tab-pane fade" id="pod4">Execução técnica respeitando normas ambientais e segurança no
+                        trabalho.</div>
+                    </div>
+
+                    <a href="https://wa.me/5514997870187?text=Quero%20orçamento%20de%20poda%20de%20árvore"
+                      target="_blank"
+                      class="btn btn-cta mt-4 btn btn-success d-block d-md-inline-block text-center mx-auto mx-md-0">
+                      <i class="bi bi-whatsapp"></i> Solicitar orçamento
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ================= PÓS-OBRA (ESCONDIDO) ================= -->
+              <div class="service-card card mb-0">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/limpeza.png" class="img-fluid h-100">
+                  </div>
+                  <div class="col-md-8 p-4">
+                    <h4 class="fw-bold">Limpeza Pós-Obra</h4>
+
+                    <ul class="nav nav-pills mb-3">
+                      <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab"
+                          data-bs-target="#pos1">Definição</button></li>
+                      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                          data-bs-target="#pos2">Foco</button>
+                      </li>
+                      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                          data-bs-target="#pos3">Curiosidades</button></li>
+                      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab"
+                          data-bs-target="#pos4">Controle</button></li>
+                    </ul>
+
+                    <div class="tab-content">
+                      <div class="tab-pane fade show active" id="pos1">Limpeza pesada após obras ou reformas, removendo
+                        resíduos
+                        e sujeiras.</div>
+                      <div class="tab-pane fade" id="pos2">Deixar o ambiente pronto para uso, limpo e organizado.</div>
+                      <div class="tab-pane fade" id="pos3">Resíduos de obra podem causar danos e riscos à saúde se não
+                        forem
+                        removidos corretamente.</div>
+                      <div class="tab-pane fade" id="pos4">Uso de produtos adequados e equipe treinada para limpeza
+                        completa.
+                      </div>
+                    </div>
+
+                    <a href="https://wa.me/5514997870187?text=Quero%20orçamento%20de%20poda%20de%20árvore"
+                      target="_blank"
+                      class="btn btn-cta mt-4 btn btn-success d-block d-md-inline-block text-center mx-auto mx-md-0">
+                      <i class="bi bi-whatsapp"></i> Solicitar orçamento
+                    </a>
+                  </div>
+                </div>
+              </div>
   </section>
 
   <!-- PQ -->
@@ -401,34 +453,49 @@
 
         <div class="col-md-4">
           <div class="card h-100 shadow-sm text-center p-4">
-            <i class="bi bi-shield-check text-primary fs-1 mb-3"></i>
-            <h5 class="fw-bold">Segurança e Conformidade</h5>
-            <p>
-              Atendemos rigorosamente às normas ambientais e de segurança do trabalho,
-              garantindo proteção total para pessoas e ambientes.
-            </p>
+            <i class="bi bi-search fs-1 text-primary mb-3"></i>
+            <h5 class="fw-bold">Vistoria sem custo</h5>
+            <p>Não cobramos por vistorias técnicas para avaliação do ambiente.</p>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="card h-100 shadow-sm text-center p-4">
-            <i class="bi bi-award text-primary fs-1 mb-3"></i>
-            <h5 class="fw-bold">Qualidade Comprovada</h5>
-            <p>
-              Utilizamos produtos certificados, equipamentos modernos e processos eficazes
-              para resultados duradouros.
-            </p>
+            <i class="bi bi-arrow-repeat fs-1 text-primary mb-3"></i>
+            <h5 class="fw-bold">Reaplicação gratuita</h5>
+            <p>Garantimos reaplicação sem custo adicional durante a garantia.</p>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="card h-100 shadow-sm text-center p-4">
-            <i class="bi bi-people text-primary fs-1 mb-3"></i>
-            <h5 class="fw-bold">Atendimento Personalizado</h5>
-            <p>
-              Cada cliente recebe uma solução sob medida, com análise técnica e acompanhamento
-              contínuo.
-            </p>
+            <i class="bi bi-clock-history fs-1 text-primary mb-3"></i>
+            <h5 class="fw-bold">Atendimento 24h</h5>
+            <p>Suporte rápido e atendimento disponível sempre que precisar.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm text-center p-4">
+            <i class="bi bi-calendar-check fs-1 text-primary mb-3"></i>
+            <h5 class="fw-bold">Acompanhamento mensal</h5>
+            <p>Monitoramento contínuo durante o período de garantia.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm text-center p-4">
+            <i class="bi bi-patch-check fs-1 text-primary mb-3"></i>
+            <h5 class="fw-bold">Selo de garantia</h5>
+            <p>Compromisso com a qualidade e eficácia dos serviços prestados.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm text-center p-4">
+            <i class="bi bi-shield-check fs-1 text-primary mb-3"></i>
+            <h5 class="fw-bold">Produtos certificados</h5>
+            <p>Produtos aprovados pela ANVISA e CETESB, seguros e ecológicos.</p>
           </div>
         </div>
 
@@ -436,6 +503,7 @@
 
     </div>
   </section>
+
 
 
   <!-- FAQ -->
@@ -528,8 +596,8 @@
     <div class="container">
 
       <div class="text-center mb-5">
-        <h2 class="fw-bold">Nossos Parceiros</h2>
-        <p class="text-muted">Marcas que garantem qualidade e segurança</p>
+        <h2 class="fw-bold">Nossas Empresas</h2>
+        <p class="text-muted">Marcas do Grupo Sertec</p>
       </div>
 
       <div class="row g-4 justify-content-center">
@@ -538,7 +606,7 @@
         <div class="col-6 col-md-3">
           <div class="parceiro-card"><a href="#"><img src="img-logos/safetoooooow.jpg" alt="SafeTow">
               <div class="parceiro-info">
-                <h6>BASF</h6>
+                <h6>SafeTow</h6>
                 <p>Reboque de carros 24hrs</p>
               </div>
             </a>
@@ -560,22 +628,38 @@
             <a href="#"><img src="img-logos/proserviceclear.png" alt="ProService">
               <div class="parceiro-info">
                 <h6>Pro Service</h6>
-                <p>Tecnologia avançada em controle de pragas</p>
+                <p>Segurança avançada</p>
               </div>
           </div>
         </div></a>
-
-
         <div class="col-6 col-md-3">
-          <div class="parceiro-card"><a href="#"><img src="img-logos/servtintas.jpg" alt="ServTintas">
+          <div class="parceiro-card">
+            <a href="#"><img src="img-logos/servtintas.png" alt="ServTintas">
               <div class="parceiro-info">
                 <h6>ServTintas</h6>
                 <p>Distribuidora de Tintas</p>
               </div>
-          </div></a>
-
+            </a>
+          </div>
         </div>
 
+        <div class="col-6 col-md-3">
+          <div class="parceiro-card"><a href="#"><img src="img-logos/RSS.png" alt="ServTintas">
+              <div class="parceiro-info">
+                <h6>RSS</h6>
+                <p>Gestão Pública</p>
+              </div>
+          </div></a>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <div class="parceiro-card"><a href="#"><img src="img-logos/agn.jpg" alt="ServTintas">
+              <div class="parceiro-info">
+                <h6>AGN</h6>
+                <p>Serviços Gerais</p>
+              </div>
+          </div></a>
+        </div>
       </div>
 
     </div>
@@ -591,11 +675,27 @@
       <a href="https://wa.me/5514997870187" target="_blank" class="btn btn-cta btn-lg">
         <i class="bi bi-whatsapp"></i> Falar no WhatsApp
       </a>
+      <div class="social-icons mt-4">
+        <a href="https://www.instagram.com/sertec.prest.serv/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/sertec.prest.serv/" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+      </div>
+
+      <div class="social-handle mt-2">
+        @sertecserv
+      </div>
+
     </div>
   </section>
 
-  <footer class="py-3 text-center bg-black text-muted">
-    © 2026 SERTEC - Todos os direitos reservados
+  <footer class="py-4 text-center bg-black text-muted">
+    <div>© 2026 SERTEC - Todos os direitos reservados</div>
+
+    <div class="mt-2">
+      CNPJ: 51.025.998/0001-10<br>
+      E-mail: <a href="mailto:administrativo@sertecserv.com" class="text-muted">
+        administrativo@sertecserv.com
+      </a>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
