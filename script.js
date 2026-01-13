@@ -90,7 +90,7 @@ function result() {
   let nivel = "baixo";
   let msg = "Parece tranquilo, mas prevenção é sempre a melhor opção 😉";
 
-  // Agora são 5 perguntas (score mínimo 5 e máximo 15)
+
   if (score >= 12) {
     nivel = "alto";
     msg = "🚨 Atenção! O grau de incidência é alto e o ideal é agir agora.";
@@ -121,7 +121,7 @@ function result() {
 
 loadQuiz();
 
-// Trocar texto do botão "Veja mais serviços" ↔ "Ver menos serviços"
+
 document.addEventListener("DOMContentLoaded", () => {
   const collapseEl = document.getElementById("moreServicesCollapse");
   const textEl = document.getElementById("moreServicesText");

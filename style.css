@@ -1,170 +1,158 @@
 body {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .hero {
-    min-height: 90vh;
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("img/HEROGG.png") center no-repeat;
-    display: flex;
-    align-items: center;
+  min-height: 90vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("img/HEROGG.png") center no-repeat;
+  display: flex;
+  align-items: center;
 }
 
 
 .btn-cta {
-    background: linear-gradient(135deg, #25d366, #128c7e);
-    color: #fff;
-    padding: 14px 28px;
-    border-radius: 50px;
-    font-weight: 600;
-    box-shadow: 0 10px 25px rgba(37, 211, 102, .4);
-    transition: .3s;
-    text-decoration: none;
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-weight: 600;
+  box-shadow: 0 10px 25px rgba(37, 211, 102, .4);
+  transition: .3s;
+  text-decoration: none;
 }
 
 .btn-cta:hover {
-    transform: translateY(-4px) scale(1.04);
-    box-shadow: 0 18px 35px rgba(37, 211, 102, .6);
-    color: #fff;
+  transform: translateY(-4px) scale(1.04);
+  box-shadow: 0 18px 35px rgba(37, 211, 102, .6);
+  color: #fff;
 }
 
 .service-card {
-    border: none;
-    transition: .3s;
+  border: none;
+  transition: .3s;
 }
 
 .service-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
 }
 
 .sobre-expandido {
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
 }
 
 .sobre-expandido p {
-    font-size: 22px;
+  font-size: 22px;
 }
 
-.h2-sobre h2{
-    font-size: 32px;
+.h2-sobre h2 {
+  font-size: 32px;
 }
 
 .mascote-sertec {
-    max-width: 300px;
-    animation: flutuar 5.5s ease-in-out infinite;
+  max-width: 300px;
+  animation: flutuar 5.5s ease-in-out infinite;
 }
 
-/* animação leve */
+/* animação mascote */
 @keyframes flutuar {
-    0% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
 
-    50% {
-        transform: translateY(-12px);
-    }
+  50% {
+    transform: translateY(-12px);
+  }
 
-    100% {
-        transform: translateY(0);
-    }
+  100% {
+    transform: translateY(0);
+  }
 }
 
-/* mobile */
-@media (max-width: 768px) {
-    .sobre-expandido {
-        min-height: auto;
-        padding: 60px 0;
-    }
-
-    .mascote-sertec {
-        max-width: 260px;
-    }
-
-}
-
+/* quiz sec */
 .quiz-section {
-    background: linear-gradient(135deg, #0d6efd, #002f6c);
-    color: #fff;
+  background: linear-gradient(135deg, #0d6efd, #002f6c);
+  color: #fff;
 }
 
 .quiz-card {
-    background: #fff;
-    color: #000;
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
 }
 
 .quiz-sub {
-    opacity: .9;
+  opacity: .9;
 }
 
 .quiz-progress {
-    width: 100%;
-    height: 8px;
-    background: #eee;
-    border-radius: 20px;
-    margin-bottom: 25px;
-    overflow: hidden;
+  width: 100%;
+  height: 8px;
+  background: #eee;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  overflow: hidden;
 }
 
 .quiz-progress div {
-    height: 100%;
-    width: 20%;
-    background: linear-gradient(90deg, #28a745, #20c997);
-    transition: width .3s;
+  height: 100%;
+  width: 20%;
+  background: linear-gradient(90deg, #28a745, #20c997);
+  transition: width .3s;
 }
 
 .quiz-question {
-    font-weight: 700;
-    margin-bottom: 25px;
+  font-weight: 700;
+  margin-bottom: 25px;
 }
 
 .quiz-options button {
-    width: 100%;
-    padding: 15px;
-    border-radius: 14px;
-    border: none;
-    font-size: 1.05rem;
-    font-weight: 600;
-    margin-bottom: 12px;
-    transition: .2s;
+  width: 100%;
+  padding: 15px;
+  border-radius: 14px;
+  border: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  transition: .2s;
 }
 
 .quiz-options button:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 /* cores dos botões */
 .btn-green {
-    background: #28a745;
-    color: #fff;
+  background: #28a745;
+  color: #fff;
 }
 
 .btn-yellow {
-    background: #ffc107;
-    color: #000;
+  background: #ffc107;
+  color: #000;
 }
 
 .btn-red {
-    background: #dc3545;
-    color: #fff;
+  background: #dc3545;
+  color: #fff;
 }
 
 .parceiros-section {
-    background: #f8f9fa;
+  background: #f8f9fa;
 }
 
 .logo-parceiro {
-    max-width: 160px;
-    max-height: 80px;
-    filter: grayscale(100%);
-    opacity: .7;
-    transition: .3s ease;
+  max-width: 160px;
+  max-height: 80px;
+  filter: grayscale(100%);
+  opacity: .7;
+  transition: .3s ease;
 }
 
 
@@ -178,7 +166,7 @@ body {
   border-radius: 16px;
   padding: 30px;
   text-align: center;
-  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
   overflow: hidden;
   transition: .3s;
 }
@@ -195,7 +183,8 @@ body {
 .parceiro-info {
   position: absolute;
   inset: 0;
-  background: rgba(7, 68, 160, 0.95); /* azul sertec */
+  background: rgba(7, 68, 160, 0.95);
+  /* azul sertec */
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -219,15 +208,14 @@ body {
   font-size: .9rem;
   margin: 0;
 }
-.quiz-counter{
+
+.quiz-counter {
   font-weight: 700;
   opacity: .75;
   font-size: .95rem;
 }
 
 
-
-/* Accordion "Veja mais serviços" dentro da seção azul */
 #servicos .accordion-item {
   border: none;
   border-radius: 14px;
@@ -241,7 +229,7 @@ body {
 
 #servicos .accordion-button:not(.collapsed) {
   background: rgba(255, 255, 255, .14);
-  color:rgba(7, 68, 160, 0.95);
+  color: rgba(7, 68, 160, 0.95);
   box-shadow: none;
   text-align: center;
 }
@@ -257,20 +245,18 @@ body {
 }
 
 
-/* Centralizar botão "Veja mais serviços" */
 #servicos .accordion-button {
   justify-content: center;
   text-align: center;
   gap: 10px;
 }
 
-/* Centraliza também no mobile */
 #servicos .accordion-button::after {
   position: static;
   margin-left: 10px;
 }
 
-/* Destaque quando o accordion está fechado */
+
 #servicos .accordion-button.collapsed {
   box-shadow: 0 0 0 rgba(37, 211, 102, 0);
   transition: all .3s ease;
@@ -282,17 +268,19 @@ body {
     transform: scale(1);
     box-shadow: 0 0 0 rgba(37, 211, 102, 0);
   }
+
   50% {
     transform: scale(1.02);
     box-shadow: 0 0 25px rgba(37, 211, 102, .35);
   }
+
   100% {
     transform: scale(1);
     box-shadow: 0 0 0 rgba(37, 211, 102, 0);
   }
 }
 
-/* Quando abre, remove a animação */
+
 #servicos .accordion-button:not(.collapsed) {
   animation: none;
 }
@@ -305,7 +293,7 @@ body {
 }
 
 .certificados img {
-  max-height: 150px; /* tamanho pequeno */
+  max-height: 150px;
   opacity: 0.85;
   transition: 0.3s;
 }
@@ -316,12 +304,6 @@ body {
 }
 
 
-/* Mobile */
-@media (max-width: 768px) {
-  .certificados {
-    justify-content: center;
-  }
-}
 .social-icons {
   display: flex;
   justify-content: center;
@@ -341,4 +323,54 @@ body {
 .social-handle {
   font-size: 0.95rem;
   opacity: 0.8;
+}
+
+.parceiros-banner img {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+/* mobile media */
+@media (max-width: 768px) {
+  .parceiros-banner {
+    margin-top: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .parceiro-card {
+    padding: 18px;
+  }
+
+  .parceiro-card img {
+    height: 75px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certificados {
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .certificados img {
+    width: 42vw;
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobre-expandido {
+    min-height: auto;
+    padding: 60px 0;
+  }
+
+  .mascote-sertec {
+    max-width: 260px;
+  }
+
 }
